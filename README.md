@@ -1,5 +1,5 @@
 # ZippyShare Extractor 
-> Extract zippyshare download link from the given url magically :sparkles: 
+> Extract ZippyShares download link from the given url magically :sparkles: 
 
 ## Why
 It all started when I had to download a file divided into 150 `.rar` files all from zippyshare, as long as they were 2/3 you could do it. But not this time, considering how much they were it could take too much time lost at escaping banners and ADS.
@@ -11,17 +11,17 @@ So the solution was to clean the page from all the ADS scripts and other superfl
 
 
 ## Installation 
-Simply add `zippyshare-extarctor` to your dependecies.
+Simply add `zippy` to your dependecies.
 
 ```sh 
-	$ sudo yarn add zippyshare-extractor
+	$ sudo yarn add zippy
 
-	$ npm i zippyshare-extractor --save
+	$ npm i zippy --save
 ```
 
 ## Usage
 ```js
-	import zippy from 'zippyshare-extractor';
+	import zippy from 'zippy';
 	import download from 'simple-download';
 
 	zippy(zippyshare_url).then(url => {
