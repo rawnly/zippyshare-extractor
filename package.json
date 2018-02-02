@@ -1,10 +1,10 @@
 {
   "name": "zippyshare-extractor",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/rawnly/zippy"
+    "url": "https://github.com/rawnly/zippyshare-extractor"
   },
   "dependencies": {
     "got": "^8.0.3",
