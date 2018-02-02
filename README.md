@@ -11,12 +11,12 @@ So the solution was to clean the page from all the ADS scripts and other superfl
 
 
 ## Installation 
-Simply add `zippy` to your dependecies.
+Simply add `zippyshare-extractor` to your dependecies.
 
 ```sh 
-	$ sudo yarn add zippy
+	$ sudo yarn add zippyshare-extractor
 
-	$ npm i zippy --save
+	$ npm i zippyshare-extractor --save
 ```
 
 ## Usage
