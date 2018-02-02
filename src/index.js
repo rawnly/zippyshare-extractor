@@ -7,7 +7,6 @@ const { URL } = require('url');
 
 const got = require('got');
 const { JSDOM } = require('jsdom');
-const del = require('del');
 
 const { download, getClient, filterList, pathParse } = require('./libs');
 
