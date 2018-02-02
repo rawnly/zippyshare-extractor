@@ -1,0 +1,10 @@
+{
+  "name": "zippyshare-url-extactor",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^8.0.3",
+    "jsdom": "^11.6.2"
+  }
+}
