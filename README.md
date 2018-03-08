@@ -9,6 +9,9 @@ So once I understand how zippyshare protects itself from `HTTP` requests it was 
 
 So the solution was to clean the page from all the ADS scripts and other superfluous ones and extract the line that generates the path to the file that needs to be downloaded, then thanks to the `eval` function you can easily run it and get the file path.
 
+## The ZippyShare Script 
+> [1st week of March 2018]
+![zippyshare-script](https://user-images.githubusercontent.com/16429579/37145976-bc9b027c-22c2-11e8-82de-c73fd8f0998d.png)
 
 ## Installation 
 Simply add `zippyshare-extractor` to your dependecies.
