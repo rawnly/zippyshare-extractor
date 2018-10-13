@@ -11,7 +11,19 @@ So the solution was to clean the page from all the ADS scripts and other superfl
 
 ## The ZippyShare Script 
 #### [1st week of March 2018]
-![zippyshare-script](https://user-images.githubusercontent.com/16429579/37145976-bc9b027c-22c2-11e8-82de-c73fd8f0998d.png)
+```js
+var a = 36;
+
+document.getElementById('dlbutton').omg = "asdasd".substr(0, 3);
+
+var b = document.getElementById('dlbutton').omg.length;
+
+document.getElementById('dlbutton').href = "/d/W1svPisk" + (Math.pow(a, 3) + b) + "/path/to/file";
+
+if ( document.getElementById('fimage') ) {
+	document.getElementById('fimage').href = "/i/W1svPisk" + (Math.pow(a, 3) + b) + "/path/to/file";
+}
+```
 
 #### Update: 14 Oct 2018
 The script has changed, now it's really simple.. 
