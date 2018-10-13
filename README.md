@@ -25,7 +25,7 @@ if ( document.getElementById('fimage') ) {
 }
 ```
 
-#### Update: 14 Oct 2018
+#### 14 Oct 2018
 The script has changed, now it's really simple.. 
 ```js
 document.getElementById('dlbutton').href = "/d/GtIlB8Sw/" + (715980 % 51245 + 715980 % 913) + "/path/to/file"
