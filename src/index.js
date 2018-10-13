@@ -47,10 +47,8 @@ module.exports = url => {
 				return item.trim();
 			});
 
-			// Creating "credentials" for Math.pow(a, 3) + b
-			const a = rows[0].replace(/\D/g, '');
-			const b = eval(rows[1].split(' = ')[1]).length;
-			const path = eval(rows[3]);
+			const script = rows[0].split('=').pop()
+			const path = eval(script)
 
 			// update the pathname of the url
 			url.pathname = path;
