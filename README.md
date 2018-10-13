@@ -12,6 +12,12 @@ So the solution was to clean the page from all the ADS scripts and other superfl
 ## The ZippyShare Script 
 > [1st week of March 2018]
 ![zippyshare-script](https://user-images.githubusercontent.com/16429579/37145976-bc9b027c-22c2-11e8-82de-c73fd8f0998d.png)
+> Update: 14 Oct 2018
+The script has changed, now it's really simple.. 
+```js
+document.getElementById('dlbutton').href = "/d/GtIlB8Sw/" + (715980 % 51245 + 715980 % 913) + "/path/to/file"
+// .. useless code
+```
 
 ## Installation 
 Simply add `zippyshare-extractor` to your dependecies.
