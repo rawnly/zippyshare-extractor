@@ -26,10 +26,13 @@ if ( document.getElementById('fimage') ) {
 ```
 
 #### 14 Oct 2018
-The script has changed, now it's really simple.. 
+The script has changed, now it's really simple (almost the same) 
 ```js
 document.getElementById('dlbutton').href = "/d/GtIlB8Sw/" + (715980 % 51245 + 715980 % 913) + "/path/to/file"
-// .. useless code
+
+if ( document.getElementById('fimage') ) {
+	document.getElementById('fimage').href = "/i/GtIlB8Sw/" + (715980 % 51245 + 715980 % 913) + "/path/to/file"
+}
 ```
 
 ## Installation 
